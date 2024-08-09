@@ -38,7 +38,7 @@ displayName(): string {
 }
 
 interface StudentClassConstructor {
-  new (firstName: string, lastName: string): StudentClass;
+  new (firstName: string, lastName: string): StudentClassInterface;
 }
 
 interface StudentClassInterface {
